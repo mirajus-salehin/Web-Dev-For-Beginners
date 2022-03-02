@@ -2,11 +2,11 @@
 
 This lesson covers the basics of GitHub, a platform to host and manage changes to your code.
 
-![Intro to GitHub](/sketchnotes/webdev101-github.png)
+![Intro to GitHub](../../sketchnotes/webdev101-github.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/3)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/3)
 
 ## Introduction
 
@@ -125,7 +125,7 @@ Let's say you have a folder locally with some code project and you want to start
 
 1. **Connect your local Git repo with GitHub**. A Git repo is good on your machine but at some point you want to have backup of your files somewhere and also invite other people to work with you on your repo. One such great place to do so is GitHub. Remember we've already created a repo on GitHub so the only thing we need to do is to connect our local Git repo with GitHub. The command `git remote add` will do just that. Type the following command:
 
-   > Note, before you type the command go to your GitHub repo page to find the repository URL. You will use it in the below command. Replace `repository_name` with your GitHub URL.
+   > Note, before you type the command go to your GitHub repo page to find the repository URL. You will use it in the below command. Replace ```https://github.com/username/repository_name.git``` with your GitHub URL.
 
    ```bash
    git remote add origin https://github.com/username/repository_name.git
@@ -134,6 +134,8 @@ Let's say you have a folder locally with some code project and you want to start
    This creates a _remote_, or connection, named "origin" pointing at the GitHub repository you created earlier.
 
 1. **Send local files to GitHub**. So far you've created a _connection_ between the local repo and the GitHub repo. Let's send these files to GitHub with the following command `git push`, like so: 
+   
+   > Note, your branch name may be different by default from ```main```.
 
    ```bash
    git push -u origin main
@@ -141,7 +143,7 @@ Let's say you have a folder locally with some code project and you want to start
 
    This sends your commits in your "main" branch to GitHub.
 
-1. **To add more changes**. If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
+2. **To add more changes**. If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
 
    ```bash
    git add .
@@ -299,7 +301,7 @@ Projects might also have discussion in forums, mailing lists, or chat channels l
 Pair with a friend to work on each other's code. Create a project collaboratively, fork code, create branches, and merge changes.
 
 ## Post-Lecture Quiz
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/4)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/4)
 
 ## Review & Self Study
 

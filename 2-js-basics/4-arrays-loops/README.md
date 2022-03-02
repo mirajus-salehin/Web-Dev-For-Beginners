@@ -1,16 +1,21 @@
 # JavaScript Basics: Arrays and Loops
 
-![JavaScript Basics - Arrays](/sketchnotes/webdev101-js-arrays.png)
+![JavaScript Basics - Arrays](../../sketchnotes/webdev101-js-arrays.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/13)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/13)
 
 This lesson covers the basics of JavaScript, the language that provides interactivity on the web. In this lesson, you'll learn about arrays and loops, which are used to manipulate data.
 
-[![Arrays and Loops](https://img.youtube.com/vi/Q_CRM2lXXBg/0.jpg)](https://youtube.com/watch?v=Q_CRM2lXXBg "Arrays and Loops")
+[![Arrays](https://img.youtube.com/vi/1U4qTyq02Xw/0.jpg)](https://youtube.com/watch?v=1U4qTyq02Xw "Arrays")
 
-> Click the image above for a video about arrays and loops.
+[![Loops](https://img.youtube.com/vi/Eeh7pxtTZ3k/0.jpg)](https://www.youtube.com/watch?v=Eeh7pxtTZ3k "Loops")
+
+> 🎥 Click the images above for videos about arrays and loops.
+
+> You can take this lesson on [Microsoft Learn](https://docs.microsoft.com/learn/modules/web-development-101-arrays/?WT.mc_id=academic-13441-cxa)!
+
 ## Arrays
 
 Working with data is a common task for any language, and it's a much easier task when data is organized in a structural format, such as arrays. With arrays, data is stored in a structure similar to a list. One major benefit of arrays is that you can store different types of data in one array.
@@ -19,11 +24,15 @@ Working with data is a common task for any language, and it's a much easier task
 
 The syntax for an array is a pair of square brackets.
 
-`let myArray = [];`
+```javascript
+let myArray = [];
+```
 
 This is an empty array, but arrays can be declared already populated with data. Multiple values in an array are separated by a comma.
 
-`let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];`
+```javascript
+let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
+```
 
 The array values are assigned a unique value called the **index**, a whole number that is assigned based on its distance from the beginning of the array. In the example above, the string value "Chocolate" has an index of 0, and the index of "Rocky Road" is 4. Use the index with square brackets to retrieve, change, or insert array values.
 
@@ -64,15 +73,15 @@ Loops allow for repetitive or **iterative** tasks, and can save a lot of time an
 ### For Loop
 
 The `for` loop requires 3 parts to iterate:
-    - `counter` A variable that is typically initialized with a number that counts the number of iterations.
-    - `condition` Expression that uses comparison operators to cause the loop to stop when `true`
-    - `iteration-expression` Runs at the end of each iteration, typically used to change the counter value
+- `counter` A variable that is typically initialized with a number that counts the number of iterations
+- `condition` Expression that uses comparison operators to cause the loop to stop when `true`
+- `iteration-expression` Runs at the end of each iteration, typically used to change the counter value
   
 ```javascript
-    //Counting up to 10
-    for (let i = 0; i < 10; i++) {
-        console.log(i);
-    }
+// Counting up to 10
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
 ```
 
 ✅ Run this code in a browser console. What happens when you make small changes to the counter, condition, or iteration expression? Can you make it run backwards, creating a countdown?
@@ -113,7 +122,7 @@ for (let i = 0; i < iceCreamFlavors.length; i++) {
 There are other ways of looping over arrays other than for and while loops. There are [forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of), and [map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Rewrite your array loop using one of these techniques.
 
 ## Post-Lecture Quiz
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/14)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/14)
 
 
 ## Review & Self Study

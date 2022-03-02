@@ -2,7 +2,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/25)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/25)
 
 ### Introduction
 
@@ -12,7 +12,7 @@ In this lesson, you'll call an API by submitting your browser extension's form a
 
 ### Set up the elements to manipulate in the extension:
 
-By this time you have built the HTML for the form and results `<div>` for your browser extension. From now on, you'll need to work in the `/src/index.js` file and building your extension bit by bit. Refer to the [previous lesson](../about-browsers/README.md) on getting your project set up and on the build process.
+By this time you have built the HTML for the form and results `<div>` for your browser extension. From now on, you'll need to work in the `/src/index.js` file and building your extension bit by bit. Refer to the [previous lesson](../1-about-browsers/README.md) on getting your project set up and on the build process.
 
 Working in your `index.js` file, start by creating some `const` variables to hold the values associated with various fields:
 
@@ -151,7 +151,7 @@ Here's a quick video about `async`:
 
 [![Async and Await for managing promises](https://img.youtube.com/vi/YwmlRkrxvkk/0.jpg)](https://youtube.com/watch?v=YwmlRkrxvkk "Async and Await for managing promises")
 
-> Click the image above for a video about async/await.
+> 🎥 Click the image above for a video about async/await.
 
 Create a new function to query the C02Signal API:
 
@@ -195,12 +195,12 @@ async function displayCarbonUsage(apiKey, region) {
 
 This is a big function. What's going on here?
 
-- following best practices, you use an `async` keyword to make this function behave asyncronously. The function contains a `try/catch` block as it will return a promise when the API returns data. Because you don't have control over the speed that the API will respond (it may not respond at all!), you need to handle this uncertainty by call it asyncronously. 
+- following best practices, you use an `async` keyword to make this function behave asynchronously. The function contains a `try/catch` block as it will return a promise when the API returns data. Because you don't have control over the speed that the API will respond (it may not respond at all!), you need to handle this uncertainty by call it asynchronously. 
 - you're querying the co2signal API to get your region's data, using your API Key. To use that key, you have to use a type of authentication in your header parameters.
 - once the API responds, you assign various elements of its response data to the parts of your screen you set up to show this data.
 - if there's an error, or if there is no result, you show an error message.
 
-✅ Using asyncronous programming patterns is another very useful tool in your toolbox. Read [about the various ways](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/async_function) you can configure this type of code.
+✅ Using asynchronous programming patterns is another very useful tool in your toolbox. Read [about the various ways](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/async_function) you can configure this type of code.
 
 Congratulations! If you build your extension (`npm run build`) and refresh it in your extensions pane, you have a working extension! The only thing that isn't working is the icon, and you'll fix that in the next lesson.
 
@@ -212,7 +212,7 @@ We've discussed several types of API so far in these lessons. Choose a web API a
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/26)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/26)
 
 ## Review & Self Study
 

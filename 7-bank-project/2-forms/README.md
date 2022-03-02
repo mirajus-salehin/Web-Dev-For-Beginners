@@ -2,7 +2,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/43)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/43)
 
 ### Introduction
 
@@ -13,6 +13,13 @@ In this part we'll use HTML forms to add login and registration to our web app. 
 ### Prerequisite
 
 You need to have completed the [HTML templates and routing](../1-template-route/README.md) of the web app for this lesson. You also need to install [Node.js](https://nodejs.org) and [run the server API](../api/README.md) locally so you can send data to create accounts.
+
+**Take note**
+You will have two terminals running at the same time as listed below.
+1. For the the main bank app we built in the [HTML templates and routing](../1-template-route/README.md) lesson
+2. For the [Bank APP server API](../api/README.md) we just setup above.
+
+You need two of the servers up and running to follow through with the rest of the lesson. They are listening on different ports(port `3000` and port `5000`) so everything should work just fine.
 
 You can test that the server is running properly by executing this command in a terminal:
 
@@ -129,7 +136,7 @@ If everything goes well, the server should answer your request with a [JSON](htt
 
 ## Submitting data without reloading the page
 
-As you probably noticed, there's a slight issue with the approach we just used: when submitting the form, we get out of our app and the browser redirects to the server URL. We're trying to avoid all page reloads with our web app, as we're makng a [Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application).
+As you probably noticed, there's a slight issue with the approach we just used: when submitting the form, we get out of our app and the browser redirects to the server URL. We're trying to avoid all page reloads with our web app, as we're making a [Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application).
 
 To send the form data to the server without forcing a page reload, we have to use JavaScript code. Instead of putting an URL in the `action` property of a `<form>` element, you can use any JavaScript code prepended by the `javascript:` string to perform a custom action. Using this also means that you'll have to implement some tasks that were previously done automatically by the browser:
 
@@ -181,7 +188,7 @@ Here's a quick video about `async/await` usage:
 
 [![Async and Await for managing promises](https://img.youtube.com/vi/YwmlRkrxvkk/0.jpg)](https://youtube.com/watch?v=YwmlRkrxvkk "Async and Await for managing promises")
 
-> Click the image above for a video about async/await.
+> 🎥 Click the image above for a video about async/await.
 
 We use the `fetch()` API to send JSON data to the server. This method takes 2 parameters:
 
@@ -212,7 +219,7 @@ async function register() {
   const result = await createAccount(jsonData);
 
   if (result.error) {
-    return console.log('An error occured:', result.error);
+    return console.log('An error occurred:', result.error);
   }
 
   console.log('Account created!', result);
@@ -267,7 +274,7 @@ Now if you press the *Register* button and a field does not respect a validation
 
 ![Screenshot showing the validation error when trying to submit the form](./images/validation-error.png)
 
-Validation like this performed *before* sending any data to the server is called **client-side** validation. But note that's it's not always possible to peform all checks without sending the data. For example, we cannot check here if an account already exists with the same username without sending a request to the server. Additional validation performed on the server is called **server-side** validation.
+Validation like this performed *before* sending any data to the server is called **client-side** validation. But note that's it's not always possible to perform all checks without sending the data. For example, we cannot check here if an account already exists with the same username without sending a request to the server. Additional validation performed on the server is called **server-side** validation.
 
 Usually both need to be implemented, and while using client-side validation improves the user experience by providing instant feedback to the user, server-side validation is crucial to make sure the user data you manipulate is sound and safe.
 
@@ -283,7 +290,7 @@ Here's an example of what the final login page can look like after a bit of styl
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/44)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/44)
 
 ## Review & Self Study
 

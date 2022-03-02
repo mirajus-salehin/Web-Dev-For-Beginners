@@ -6,7 +6,7 @@
 > 涂鸦笔记作者：[Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 课前小测
-[课前小测](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1?loc=zh_cn)
+[课前小测](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1?loc=zh_cn)
 
 ## 大纲
 
@@ -120,7 +120,7 @@ back add r0,r1
 
 另一个关键工具是浏览器。Web 开发者需要用浏览器来观察它们的代码如何在网页上运行，还可以看到编辑器中编写的元素（如 HTML 元素）如何展现在网页上。
 
-许多浏览器都提供了*开发者工具*（DevTools），包括一系列有用的功能和信息，用以辅助开发者收集和捕获它们应用程序的重要信息。例如当网页发生错误时，获知错误是何时发生的有助于帮助解决错误，而浏览器 DevTools 就可以被配置来捕获这个信息。
+许多浏览器都提供了*开发者工具*（DevTools），包括一系列有用的功能和信息，用以辅助开发者收集和捕获它们应用程序的重要信息。例如当网页发生错误时，获知错误是何时发生的有助于解决错误，而浏览器 DevTools 就可以被配置来捕获这个信息。
 
 #### 主流浏览器和 DevTools
 
@@ -154,7 +154,7 @@ back add r0,r1
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
 #### 常用命令行工具
@@ -169,8 +169,10 @@ back add r0,r1
 
 #### Web 开发常用文档
 
-- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web), 来自 Mozilla，[Firefox](https://www.mozilla.org/firefox/) 的出版商
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev)，来自 Google，[Chrome](https://www.google.com/chrome/) 的发布者
+- [Microsoft 自己的开发人员文档](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers)，用于 [Microsoft Edge](https://www.microsoft.com/edge)
 
 ✅ 查一查：既然你已经对 Web 开发者的环境有所了解，何不比较一下其与 Web 设计师的环境的差异？
 
@@ -181,7 +183,7 @@ back add r0,r1
 比较一些编程语言。JavaScript 和 Java 相互之间有什么独特的特征？COBOL 和 Go 之间呢？
 
 ## 课后小测
-[课后小测](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2?loc=zh_cn)
+[课后小测](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2?loc=zh_cn)
 
 ## 复习 & 自学
 

@@ -5,7 +5,7 @@ Esta lección cubre los conceptos básicos de los lenguajes de programación. Lo
 ![Intro Programming](/sketchnotes/webdev101-programming.png)
 > Dibujo por [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Cuestionario](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
+## [Cuestionario](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1)
 ### Introducción
 
 En esta lección, cubriremos:
@@ -87,7 +87,7 @@ Existe la posibilidad de que un dispositivo no ejecute algunas declaraciones. Es
 
 ## Herramientas del oficio
 
-[![Tools of the Trade](https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)](https://youtube.com/watch?v=69WJeXGBdxg "Tools of the Trade")
+[![Herramientas](https://img.youtube.com/vi/ysMrHssmhl0/0.jpg)](https://youtube.com/watch?v=ysMrHssmhl0 "Herramientas")
 
 En esta sección, aprenderás sobre software que puede ayudarte comenzar tu viaje de desarrollo profesional.
 
@@ -156,7 +156,7 @@ Las opciones para la línea de comando varian según el sistema operativo que ut
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
 #### Línea de comandos (CLI) Populares
@@ -171,8 +171,10 @@ Cuando un desarrollador quiere aprender algo nuevo, lo más probable es que recu
 
 #### Documentación popular sobre desarrollo de web
 
-- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web), de Mozilla, editores de [Firefox](https://www.mozilla.org/firefox/)
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev), de Google, editores de [Chrome](https://www.google.com/chrome/)
+- [Documentos para desarrolladores propios de Microsoft](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), para [Microsoft Edge](https://www.microsoft.com/edge)
 
 ✅ Investiga un poco: ahora que conoces los conceptos básicos del entorno de un desarrollador web, compáralo y contrasta con el entorno de un diseñador web.
 
@@ -180,7 +182,7 @@ Cuando un desarrollador quiere aprender algo nuevo, lo más probable es que recu
 
 Compara algunos lenguajes de programación. ¿Cuáles son algunos de los rasgos únicos de JavaScript frente a Java? ¿Qué hay de COBOL vs. Go?
 
-## [Prueba Post-lectura](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
+## [Prueba Post-lectura](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2)
 
 ## Revisión y autoestudio
 

@@ -2,7 +2,7 @@
 
 ## Kuiz Pra Kuliah
 
-[Kuiz Pra Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/27)
+[Kuiz Pra Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/27)
 
 ### Pengenalan
 
@@ -133,7 +133,7 @@ function drawIcon(value) {
 ```
 Dalam kod ini, anda menambahkan pendengar untuk sebarang mesej yang datang ke pengurus tugas backend. Sekiranya disebut 'updateIcon', maka kod seterusnya dijalankan, untuk menggambar ikon warna yang tepat menggunakan Canvas API.
 
-✅ Anda akan mengetahui lebih lanjut mengenai Canvas API dalam [pelajaran Space Game](../../space-game/drawing-to-canvas/README.md).
+✅ Anda akan mengetahui lebih lanjut mengenai Canvas API dalam [pelajaran Space Game](../../../6-space-game/2-drawing-to-canvas/translations/README.ms.md).
 
 Sekarang, buat semula pelanjutan anda (`npm run build`), muat semula dan lancarkan peluasan anda, dan perhatikan perubahan warnanya. Adakah masa yang sesuai untuk menjalankan tugas atau mencuci pinggan? Sekarang anda tahu!
 
@@ -147,7 +147,7 @@ Selidiki beberapa laman web sumber terbuka telah lama wujud, dan, berdasarkan se
 
 ## Kuiz Pasca Kuliah
 
-[Kuiz Pasca Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/28)
+[Kuiz Pasca Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/28)
 
 ## Mengkaji & Belajar Sendiri
 

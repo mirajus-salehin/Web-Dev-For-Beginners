@@ -7,7 +7,7 @@ Pelajaran ini mencakup dasar-dasar bahasa pemrograman. Topik yang dibahas di sin
 
 ## Kuis Pra-Kuliah
 
-[Kuis pra-kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1?loc=id)
+[Kuis pra-kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1?loc=id)
 
 ## Pengantar
 
@@ -155,7 +155,7 @@ Pilihan untuk command line akan berbeda berdasarkan sistem operasi yang Anda gun
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
 #### Alat Command Line Populer
@@ -170,8 +170,11 @@ Ketika pengembang ingin mempelajari sesuatu yang baru, mereka kemungkinan besar 
 
 #### Dokumentasi Populer tentang Pengembangan Web
 
-- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web) dari Mozilla, penerbit [Firefox](https://www.mozilla.org/firefox/)
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev), dari Google, penerbit [Chrome](https://www.google.com/chrome/)
+- [Dokumen pengembang Microsoft sendiri](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), untuk [Microsoft Edge](https://www.microsoft.com/edge)
+
 ✅ Lakukan riset: Sekarang Anda tahu dasar-dasar lingkungan pengembang web, bandingkan dan kontras dengan lingkungan desainer web.
 
 ---
@@ -182,7 +185,7 @@ Bandingkan beberapa bahasa pemrograman. Apa saja ciri-ciri unik JavaScript vs. J
 
 ## Kuis Pasca-Kuliah
 
-[Kuis pasca-kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2?loc=id)
+[Kuis pasca-kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2?loc=id)
 
 ## Ulasan & Belajar Mandiri
 

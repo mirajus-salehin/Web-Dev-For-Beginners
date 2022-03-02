@@ -2,7 +2,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/41)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/41)
 
 ### Introduction
 
@@ -135,7 +135,7 @@ function updateRoute(templateId) {
 
 What we do here is exactly the 3 steps described above. We instantiate the template with the id `templateId`, and put its cloned content within our app placeholder. Note that we need to use `cloneNode(true)` to copy the entire subtree of the template.
 
-Now call this function with one of the templates and look at the result.
+Now call this function with one of the template and look at the result.
 
 ```js
 updateRoute('login');
@@ -189,7 +189,7 @@ function updateRoute() {
 }
 ```
 
-Here we mapped the routes we declared to the corresponding template. You can check that it works correctly by changing the URL manually in your browser.
+Here we mapped the routes we declared to the corresponding template. You can try it that it works correctly by changing the URL manually in your browser.
 
 ✅ What happens if you enter an unknown path in the URL? How could we solve this?
 
@@ -212,7 +212,7 @@ Let's create a new function we can use to navigate in our app:
 
 ```js
 function navigate(path) {
-  window.history.pushState({}, path, window.location.origin + path);
+  window.history.pushState({}, path, path);
   updateRoute();
 }
 ```
@@ -247,10 +247,12 @@ function onLinkClick(event) {
 Let's complete the navigation system by adding bindings to our *Login* and *Logout* links in the HTML.
 
 ```html
-<a href="/dashboard" onclick="onLinkClick()">Login</a>
+<a href="/dashboard" onclick="onLinkClick(event)">Login</a>
 ...
-<a href="/login" onclick="onLinkClick()">Logout</a>
+<a href="/login" onclick="onLinkClick(event)">Logout</a>
 ```
+
+The `event` object above, captures the `click` event and passes it to our `onLinkClick` function.
 
 Using the [`onclick`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onclick) attribute bind the `click` event to JavaScript code, here the call to the `navigate()` function.
 
@@ -266,7 +268,7 @@ Using the `history.pushState` creates new entries in the browser's navigation hi
 
 If you try clicking on the back button a few times, you'll see that the current URL changes and the history is updated, but the same template keeps being displayed.
 
-That's because the browser doesn't know that we need to call `updateRoute()` every time the history changes. If you take a look at the [`history.pushState` documentation](https://developer.mozilla.org/docs/Web/API/History/pushState), you can see that if the state changes - meaning that we moved to a different URL - the [`popstate`](https://developer.mozilla.org/docs/Web/API/Window/popstate_event) event is triggered. We'll use that to fix that issue.
+That's because the application does not know that we need to call `updateRoute()` every time the history changes. If you take a look at the [`history.pushState` documentation](https://developer.mozilla.org/docs/Web/API/History/pushState), you can see that if the state changes - meaning that we moved to a different URL - the [`popstate`](https://developer.mozilla.org/docs/Web/API/Window/popstate_event) event is triggered. We'll use that to fix that issue.
 
 ### Task
 
@@ -283,7 +285,7 @@ Here's a refresher video on arrow functions:
 
 [![Arrow Functions](https://img.youtube.com/vi/OP6eEbOj2sc/0.jpg)](https://youtube.com/watch?v=OP6eEbOj2sc "Arrow Functions")
 
-> Click the image above for a video about arrow functions.
+> 🎥 Click the image above for a video about arrow functions.
 
 Now try to use the back and forward buttons of your browsers, and check that the displayed route is correctly updated this time.
 
@@ -295,7 +297,7 @@ Add a new template and route for a third page that shows the credits for this ap
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/42)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/42)
 
 ## Review & Self Study
 

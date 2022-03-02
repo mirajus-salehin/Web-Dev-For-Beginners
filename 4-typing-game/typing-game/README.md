@@ -2,7 +2,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/21)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/21)
 
 ## Event driven programming
 
@@ -103,7 +103,7 @@ It's always best to develop iteratively to see how things look. Let's launch our
 - Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by following the link and clicking **Install**
   - You will be prompted by the browser to open Visual Studio Code, and then by Visual Studio Code to perform the installation
   - Restart Visual Studio Code if prompted
-- Once installed, in Visual Studio Code, click Ctrl-Shift-P (or Cmd-Shift-P) to open the command pallate
+- Once installed, in Visual Studio Code, click Ctrl-Shift-P (or Cmd-Shift-P) to open the command palette
 - Type **Live Server: Open with Live Server**
   - Live Server will start hosting your application
 - Open a browser and navigate to **https://localhost:5500**
@@ -191,7 +191,7 @@ Take a minute to watch a video on using `const`, `let` and `var`
 
 [![Types of variables](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "Types of variables")
 
-> Click the image above for a video about variables.
+> 🎥 Click the image above for a video about variables.
 
 ### Add start logic
 
@@ -328,7 +328,7 @@ Add more functionality
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/22)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/22)
 
 ## Review & Self Study
 

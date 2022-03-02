@@ -2,7 +2,7 @@
 
 ## Kuiz Pra Kuliah
 
-[Kuiz Pra Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/41)
+[Kuiz Pra Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/41)
 
 ### Arahan
 
@@ -212,7 +212,7 @@ Mari buat fungsi baru yang dapat kita gunakan untuk menavigasi di aplikasi kita:
 
 ```js
 function navigate(path) {
-  window.history.pushState({}, path, window.location.origin + path);
+  window.history.pushState({}, path, path);
   updateRoute();
 }
 ```
@@ -247,9 +247,9 @@ function onLinkClick(event) {
 Mari lengkapkan sistem navigasi dengan menambahkan pengikatan pada pautan *Login* dan *Logout* kami dalam HTML.
 
 ```html
-<a href="/dashboard" onclick="onLinkClick()">Login</a>
+<a href="/dashboard" onclick="onLinkClick(event)">Login</a>
 ...
-<a href="/login" onclick="onLinkClick()">Logout</a>
+<a href="/login" onclick="onLinkClick(event)">Logout</a>
 ```
 
 Menggunakan atribut [`onclick`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onclick) mengikat peristiwa`klik` ke kod JavaScript, di sini panggilan ke `navigasi() `fungsi.
@@ -295,7 +295,7 @@ Tambahkan templat dan laluan baru untuk halaman ketiga yang menunjukkan kredit u
 
 ## Kuiz Pasca Kuliah
 
-[Kuiz Pasca Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/42)
+[Kuiz Pasca Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/42)
 
 ## Mengkaji & Belajar Sendiri
 

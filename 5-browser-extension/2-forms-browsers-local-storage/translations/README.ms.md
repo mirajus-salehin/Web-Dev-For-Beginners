@@ -2,7 +2,7 @@
 
 ## Kuiz Pra Kuliah
 
-[Kuiz Pra Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/25)
+[Kuiz Pra Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/25)
 
 ### Pengenalan
 
@@ -12,7 +12,7 @@ Dalam pelajaran ini, anda akan memanggil API dengan menyerahkan borang pelanjuta
 
 ### Sediakan elemen untuk dimanipulasi dalam pelanjutan:
 
-Pada masa ini anda telah membina HTML untuk bentuk dan hasilnya `<div>` untuk pelanjutan penyemak imbas anda. Mulai sekarang, anda perlu bekerja dalam fail `/src/index.js` dan membina pelanjutan anda sedikit demi sedikit. Rujuk [pelajaran sebelumnya](../../about-browser/README.md) untuk menyiapkan projek anda dan pada proses pembinaan.
+Pada masa ini anda telah membina HTML untuk bentuk dan hasilnya `<div>` untuk pelanjutan penyemak imbas anda. Mulai sekarang, anda perlu bekerja dalam fail `/src/index.js` dan membina pelanjutan anda sedikit demi sedikit. Rujuk [pelajaran sebelumnya](../../1-about-browsers/translations/README.ms.md) untuk menyiapkan projek anda dan pada proses pembinaan.
 
 Bekerja dalam fail `index.js` anda, mulakan dengan membuat beberapa pemboleh ubah `const` untuk menahan nilai yang berkaitan dengan pelbagai bidang:
 
@@ -210,7 +210,7 @@ Kami telah membincangkan beberapa jenis API setakat ini dalam pelajaran ini. Pil
 
 ## Kuiz Pasca Kuliah
 
-[Kuiz Pasca Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/26)
+[Kuiz Pasca Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/26)
 
 
 ## Mengkaji & Belajar Sendiri

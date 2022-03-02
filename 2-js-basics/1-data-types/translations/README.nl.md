@@ -4,11 +4,13 @@
 > Sketchnote door [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz voorafgaand aan de lezing
-[Quiz voorafgaand aan de lezing](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7)
+[Quiz voorafgaand aan de lezing](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/7)
 
 Deze les behandelt de basisprincipes van JavaScript, de taal die voor interactiviteit op internet zorgt.
 
 [![Gegevenstypen in JavaScript](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "Gegevenstypen in JavaScript")
+
+[![Data Types in JavaScript](https://img.youtube.com/vi/AWfA95eLdq8/0.jpg)](https://youtube.com/watch?v=AWfA95eLdq8 "Data Types in JavaScript")
 
 
 Laten we beginnen met variabelen en de gegevenstypen waarmee ze worden gevuld!
@@ -111,7 +113,7 @@ In de vorige sectie was de waarde van `myVariable` een gegevenstype met een geta
 
 `let myVariable = 123;`
 
-Variabelen kunnen alle soorten getallen opslaan, inclusief decimalen of negatieve getallen. Getallen kunnen ook worden gebruikt met rekenkundige operatoren, behandeld in de [volgende sectie](#operators).
+Variabelen kunnen alle soorten getallen opslaan, inclusief decimalen of negatieve getallen. Getallen kunnen ook worden gebruikt met rekenkundige operatoren, behandeld in de [volgende sectie](#Rekenkundige-operatoren).
 
 ### Rekenkundige operatoren
 
@@ -171,7 +173,7 @@ U kunt uw opmaakdoelen met beide methoden bereiken, maar template literals respe
 
 ### Booleans
 
-Booleans kunnen slechts twee waarden zijn: `true` of `false`. Booleans kunnen helpen bij het nemen van beslissingen over welke regels code moeten worden uitgevoerd wanneer aan bepaalde voorwaarden is voldaan. In veel gevallen helpen [operatoren](# operators) bij het instellen van de waarde van een Boolean waarde en u zult vaak merken en variabelen schrijven die geïnitialiseerd worden of dat hun waarden worden bijgewerkt met een operator.
+Booleans kunnen slechts twee waarden zijn: `true` of `false`. Booleans kunnen helpen bij het nemen van beslissingen over welke regels code moeten worden uitgevoerd wanneer aan bepaalde voorwaarden is voldaan. In veel gevallen helpen [operatoren](#Rekenkundige-operatoren) bij het instellen van de waarde van een Boolean waarde en u zult vaak merken en variabelen schrijven die geïnitialiseerd worden of dat hun waarden worden bijgewerkt met een operator.
 
 - `let myTrueBool = true`
 - `let myFalseBool = false`
@@ -185,7 +187,7 @@ Booleans kunnen slechts twee waarden zijn: `true` of `false`. Booleans kunnen he
 JavaScript is berucht om zijn verrassende manieren om af en toe met gegevenstypen om te gaan. Doe een beetje onderzoek naar deze 'valstrikken'. Bijvoorbeeld: hoofdlettergevoeligheid kan bijten! Probeer dit in uw console: `let age = 1; let Age = 2; age == Age` (lost `false` op - waarom?). Welke andere valstrikken kunt u vinden?
 
 ## Quiz na de lezing
-[Quiz na de lezing](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8)
+[Quiz na de lezing](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/8)
 
 ## Beoordeling en zelfstudie
 

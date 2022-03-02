@@ -2,11 +2,11 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/27)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/27)
 
 ### Introduction
 
-In the last two lessons of this module, you learned how to build a form and display area for data fetched from an API. It's a very standard way of creating web presences on the web. You even learned how to handle fetching data asyncronously. Your browser extension is very nearly complete. 
+In the last two lessons of this module, you learned how to build a form and display area for data fetched from an API. It's a very standard way of creating web presences on the web. You even learned how to handle fetching data asynchronously. Your browser extension is very nearly complete. 
 
 It remains to manage some background tasks, including refreshing the color of the extension's icon, so this is a great time to talk about how the browser manages this kind of task. Let's think about these browser tasks in the context of the performance of your web assets as you build them.
 
@@ -133,7 +133,7 @@ function drawIcon(value) {
 ```
 In this code, you are adding a listener for any messages coming to the backend task manager. If it's called 'updateIcon', then the next code is run, to draw an icon of the proper color using the Canvas API.
 
-✅ You'll learn more about the Canvas API in the [Space Game lessons](../6-space-game/2-drawing-to-canvas/README.md/drawing-to-canvas/README.md).
+✅ You'll learn more about the Canvas API in the [Space Game lessons](../../6-space-game/2-drawing-to-canvas/README.md).
 
 Now, rebuild your extension (`npm run build`), refresh and launch your extension, and watch the color change. Is it a good time to run an errand or wash the dishes? Now you know!
 
@@ -147,7 +147,7 @@ Investigate some open source web sites have been around a long time ago, and, ba
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/28)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/28)
 
 ## Review & Self Study
 

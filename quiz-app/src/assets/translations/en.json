@@ -189,7 +189,7 @@
 						]
 					},
 					{
-						"questionText": "How would you get all the commits from a remote branch?",
+						"questionText": "How would you get and integrate all the commits from a remote branch?",
 						"answerOptions": [
 							{
 								"answerText": "git fetch",
@@ -710,7 +710,7 @@
 						"answerOptions": [
 							{
 								"answerText": "condition",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							},
 							{
 								"answerText": "counter",
@@ -718,7 +718,7 @@
 							},
 							{
 								"answerText": "iteration-expression",
-								"isCorrect": "false"
+								"isCorrect": "true"
 							}
 						]
 					},

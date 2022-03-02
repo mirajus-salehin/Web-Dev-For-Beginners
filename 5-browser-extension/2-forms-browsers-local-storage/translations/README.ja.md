@@ -2,7 +2,7 @@
 
 ## レッスン前の小テスト
 
-[レッスン前の小テスト](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/25?loc=ja)
+[レッスン前の小テスト](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/25?loc=ja)
 
 ### イントロダクション
 
@@ -12,7 +12,7 @@
 
 ### 拡張機能で操作する要素の設定:
 
-この時点で、フォーム用の HTML とブラウザ拡張機能用の結果 `<div>` が構築されています。これからは、`/src/index.js` ファイルを使って少しずつ拡張機能を構築していく必要があります。プロジェクトのセットアップとビルドのプロセスについては [前のレッスン](/5-browser-extension/1-about-browsers/translations/README.ja.md) を参照してください。
+この時点で、フォーム用の HTML とブラウザ拡張機能用の結果 `<div>` が構築されています。これからは、`/src/index.js` ファイルを使って少しずつ拡張機能を構築していく必要があります。プロジェクトのセットアップとビルドのプロセスについては [前のレッスン](../../1-about-browsers/translations/README.ja.md) を参照してください。
 
 `index.js` ファイルの中で作業を行うには、様々なフィールドに関連付けられた値を保持するための `const` 変数を作成することから始めます。
 
@@ -210,7 +210,7 @@ async function displayCarbonUsage(apiKey, region) {
 
 ## レッスン後の小テスト
 
-[レッスン後の小テスト](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/26?loc=ja)
+[レッスン後の小テスト](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/26?loc=ja)
 
 ## 復習と自己学習
 

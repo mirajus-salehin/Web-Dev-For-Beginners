@@ -6,7 +6,7 @@ Questa lezione tratta delle basi dei linguaggi di programmazione. Gli argomenti 
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Quiz Pre-Lezione
-[Quiz Pre-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1?loc=it)
+[Quiz Pre-Lezione](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1?loc=it)
 
 ## Introduzione
 
@@ -154,7 +154,7 @@ Le alternative per la riga di comando differiriscono in base al sistema operativ
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
 #### Popolari Strumenti da Riga di Comando
@@ -169,8 +169,10 @@ Quando uno sviluppatore vuole imparare qualcosa di nuovo, per la maggior parte d
 
 #### Popolari Documentazioni sullo Sviluppo Web
 
-- [Mozilla sviluppatore Network](https://sviluppatore.mozilla.org/docs/Web)
+- [Mozilla sviluppatore Network (MDN)](https://sviluppatore.mozilla.org/docs/Web), di Mozilla, editori di [Firefox](https://www.mozilla.org/firefox/)
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev), di Google, editori di [Chrome](https://www.google.com/chrome/)
+- [Documenti per sviluppatori di Microsoft](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), per [Microsoft Edge](https://www.microsoft.com/edge)
 
 ✅ Fate qualche ricerca: Ora che sapete le basi per un ambiente di sviluppo web, confrontate e rilevate le differenze rispetto all'ambiente di sviluppo di un web designer.
 
@@ -181,7 +183,7 @@ Quando uno sviluppatore vuole imparare qualcosa di nuovo, per la maggior parte d
 Confrontate alcuni linguaggi di programmazione. Quali sono i tratti univoci di  JavaScript rispetto a Java? E COBOL rispetto a Go?
 
 ## Quiz Post-Lezione
-[Quiz Post-Lezione](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2?loc=it)
+[Quiz Post-Lezione](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2?loc=it)
 
 ## Revisione e Auto Istruzione
 

@@ -2,11 +2,11 @@
 
 This lesson covers the basics of programming languages. The topics covered here apply to most modern programming languages today. In the 'Tools of the Trade' section, you'll learn about useful software that helps you as a developer.
 
-![Intro Programming](/sketchnotes/webdev101-programming.png)
+![Intro Programming](../../sketchnotes/webdev101-programming.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1)
 
 ## Introduction
 
@@ -33,7 +33,7 @@ Programming languages serve a main purpose: for developers to build instructions
 
 Programming languages come in different formats and may serve different purposes. For example, JavaScript is primarily used for web applications, while Bash is primarily used for operating systems.
 
-*Low level languages* typically require fewer steps than *high level languages* for a device to interpret instructions. However, what makes high level languages popular is its readability and support. JavaScript is considered a high level language.
+*Low level languages* typically require fewer steps than *high level languages* for a device to interpret instructions. However, what makes high level languages popular is their readability and support. JavaScript is considered a high level language.
 
 The following code illustrates the difference between a high level language with JavaScript and low level language with ARM assembly code.
 
@@ -92,6 +92,8 @@ There's a chance that some statements will not be executed by a device. This is 
 
 [![Tools of the Trade](https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)](https://youtube.com/watch?v=69WJeXGBdxg "Tools of the Trade")
 
+> 🎥 Click the image above for a video about tooling
+
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
 A **development environment** is a unique set of tools and features that a developer will use often when writing software. Some of these tools have been customized for a developer specific needs, and may change over time if a developer changes priorities in work or personal projects, or when they use a different programming language. Development environments are as unique as the developers who use them.
@@ -105,7 +107,7 @@ Developers rely on editors for a few additional reasons:
 - *Debugging* Discovering bugs and errors by stepping through code, line by line. Some editors have debugging capabilities, or can be customized and added for specific programming languages.  
 - *Syntax highlighting* Adds colors and text formatting to code, makes it easier to read. Most editors allow customized syntax highlighting.
 - *Extensions and Integrations* Additions that are specialized for developers, by developers, for access to additional tools that aren't built into the base editor. For example, many developers also need a way to document their code and explain how it works and will install a spell check extension to check for typos. Most of these additions are intended for use within a specific editor, and most editors come with a way to search for available extensions.
-- *Customization* Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extension.
+- *Customization* Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extensions.
 
 #### Popular Editors and Web Development Extensions
 
@@ -156,12 +158,12 @@ Options for the command line will differ based on the operating system you use.
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7?WT.mc_id=academic-13441-cxa)
 
 #### Popular Command Line Tools
 
-- [Git](https://git-scm.com/) (💻 on most operating sytems)
+- [Git](https://git-scm.com/) (💻 on most operating systems)
 - [NPM](https://www.npmjs.com/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/cli/)
 
@@ -171,8 +173,10 @@ When a developer wants to learn something new, they'll most likely turn to docum
 
 #### Popular Documentation on Web Development
 
-- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web), from Mozilla, the publishers of the [Firefox](https://www.mozilla.org/firefox/) browser
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev), from Google, publishers of [Chrome](https://www.google.com/chrome/)
+- [Microsoft's own developer docs](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), for [Microsoft Edge](https://www.microsoft.com/edge)
 
 ✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
@@ -183,7 +187,7 @@ When a developer wants to learn something new, they'll most likely turn to docum
 Compare some programming languages. What are some of the unique traits of JavaScript vs. Java? How about COBOL vs. Go?
 
 ## Post-Lecture Quiz
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2)
 
 ## Review & Self Study
 

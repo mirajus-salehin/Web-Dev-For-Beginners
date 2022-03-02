@@ -2,7 +2,7 @@
 
 ## レッスン前の小テスト
 
-[レッスン前の小テスト](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/41?loc=ja)
+[レッスン前の小テスト](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/41?loc=ja)
 
 ### イントロダクション
 
@@ -212,7 +212,7 @@ JavaScript、特に [`history.pushState`](https://developer.mozilla.org/ja/docs/
 
 ```js
 function navigate(path) {
-  window.history.pushState({}, path, window.location.origin + path);
+  window.history.pushState({}, path, path);
   updateRoute();
 }
 ```
@@ -247,9 +247,9 @@ function onLinkClick(event) {
 HTML の *Login* と *Logout* リンクにバインディングを追加してナビゲーションシステムを完成させましょう。
 
 ```html
-<a href="/dashboard" onclick="onLinkClick()">Login</a>
+<a href="/dashboard" onclick="onLinkClick(event)">Login</a>
 ...
-<a href="/login" onclick="onLinkClick()">Logout</a>
+<a href="/login" onclick="onLinkClick(event)">Logout</a>
 ```
 
 [`onclick`](https://developer.mozilla.org/ja/docs/Web/API/GlobalEventHandlers/onclick) 属性を使用して、`click` イベントを JavaScript コードにバインドし、ここでは `navigate()` 関数の呼び出しを行います。
@@ -293,7 +293,7 @@ updateRoute();
 
 ## レッスン後の小テスト
 
-[レッスン後の小テスト](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/42?loc=ja)
+[レッスン後の小テスト](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/42?loc=ja)
 
 ## 復習と自己学習
 

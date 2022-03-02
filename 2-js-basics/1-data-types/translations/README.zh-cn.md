@@ -4,11 +4,13 @@
 > 涂鸦笔记作者：[Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 课前小测
-[课前小测](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7?loc=zh_cn)
+[课前小测](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/7?loc=zh_cn)
 
 这节课将会介绍 JavaScript 的基础知识，正是它为网页提供了可交互性。
 
-[![Data types in JavaScript](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "JavaScript 中的数据类型")
+[![Variables in JavaScript](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "JavaScript 中的数据类型")
+
+[![Data Types in JavaScript](https://img.youtube.com/vi/AWfA95eLdq8/0.jpg)](https://youtube.com/watch?v=AWfA95eLdq8 "Data Types in JavaScript")
 
 让我们从它最基础的组成部分 —— “变量”和“数据类型”学起吧！
 
@@ -110,19 +112,19 @@ const MY_VARIABLE = 123;
 
 `let myVariable = 123;`
 
-变量可以存储所有类型的数值，包括小数或者负数。数值也可以搭配算术运算符使用，将在[下一部分](#operators)介绍。
+变量可以存储所有类型的数值，包括小数或者负数。数值也可以搭配算术运算符使用，将在[下一部分](#算术运算符(Arithmetic-Operators))介绍。
 
 ### 算术运算符（Arithmetic Operators）
 
 有许多种可以用在算术功能的运算符，下面列出了一部分：
 
-| 符号 | 描述                        | 例子                      |
-| --- | --------------------------- | ------------------------- |
-| `+` | **加法**：计算两个数的和      | `1 + 2 // 结果是 3`   |
-| `-` | **减法**：计算两个数的差      | `1 - 2 // 结果是 -1`  |
-| `*` | **乘法**：计算两个数的积      | `1 * 2 // 结果是 2`   |
-| `/` | **除法**：计算两个数的商      | `1 / 2 // 结果是 0.5` |
-| `%` | **取余**：计算两个数相除的余数 | `1 % 2 // 结果是 1`   |
+| 符号 | 描述                           | 例子                  |
+| ---- | ------------------------------ | --------------------- |
+| `+`  | **加法**：计算两个数的和       | `1 + 2 // 结果是 3`   |
+| `-`  | **减法**：计算两个数的差       | `1 - 2 // 结果是 -1`  |
+| `*`  | **乘法**：计算两个数的积       | `1 * 2 // 结果是 2`   |
+| `/`  | **除法**：计算两个数的商       | `1 / 2 // 结果是 0.5` |
+| `%`  | **取余**：计算两个数相除的余数 | `1 % 2 // 结果是 1`   |
 
 ✅ 亲手试试！在你的浏览器控制台中尝试一下算术运算。结果是否和你期望的相同？
 
@@ -140,7 +142,7 @@ const MY_VARIABLE = 123;
 
 字符串是文本，自然会有格式化的需求。
 
-要**连接（concatenate）**两个或更多字符串，或者说把它们结合到一起，可以用 `+` 运算符。
+要 **连接（concatenate）** 两个或更多字符串，或者说把它们结合到一起，可以用 `+` 运算符。
 
 ```javascript
 let myString1 = "Hello";
@@ -154,7 +156,7 @@ myString1 + ", " + myString2 + "!"; //Hello, World!
 
 ✅ 在 JavaScript 中，为什么 `1 + 1 = 2` 但 `'1' + '1' = 11`？仔细想想。如果是 `'1' + 1` 呢？
 
-**模板字符串（Template literals）**是另一种格式化字符串的方式，使用反引号（backtick）而非引号。 任何非纯文本的内容都要放到 `${ }` 占位符内，可以是任何可能是字符串的变量。
+**模板字符串（Template literals）** 是另一种格式化字符串的方式，使用反引号（backtick）而非引号。 任何非纯文本的内容都要放到 `${ }` 占位符内，可以是任何可能是字符串的变量。
 
 ```javascript
 let myString1 = "Hello";
@@ -170,7 +172,7 @@ let myString2 = "World";
 
 ### 布尔值（Booleans）
 
-布尔值只可能是这两个值：`true` 或 `false`。布尔值可以用于决定特定条件被满足时该运行哪些代码。多数情况下，[运算符](#operators)都可以设置布尔值，你会常常看到或者自己写出一些被通过运算符初始化或更新为布尔值。
+布尔值只可能是这两个值：`true` 或 `false`。布尔值可以用于决定特定条件被满足时该运行哪些代码。多数情况下，[运算符](#算术运算符(Arithmetic-Operators))都可以设置布尔值，你会常常看到或者自己写出一些被通过运算符初始化或更新为布尔值。
 
 - `let myTrueBool = true`
 - `let myFalseBool = false`
@@ -184,7 +186,7 @@ let myString2 = "World";
 JavaScript 偶尔会因为其对于数据类型令人意外的处理方式而被人诟病。你可以对这些“陷阱”做一点调查，比如大小写敏感性带来的问题，在控制台中试试 `let age = 1; let Age = 2; age == Age`（结果是 `false`，为什么？）。你还能找到哪些陷阱？
 
 ## 课后小测
-[课后小测](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8?loc=zh_cn)
+[课后小测](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/8?loc=zh_cn)
 
 ## 复习 & 自学
 

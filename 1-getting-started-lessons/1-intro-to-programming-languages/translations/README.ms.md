@@ -6,7 +6,7 @@ Pelajaran ini merangkumi asas bahasa pengaturcaraan. Topik yang anda akan belaja
 > Sketchnote karya [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra-Kuliah
-[Kuiz Pra-Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/1)
+[Kuiz Pra-Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/1)
 
 ## Pengenalan
 
@@ -152,7 +152,7 @@ Pilihan untuk ('command line') akan berbeza berdasarkan sistem operasi yang anda
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
-- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [KDE Konsole](https://docs.kde.org/trunk5/en/konsole/konsole/index.html)
 - [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
 
 #### Popular Command Line Tools
@@ -167,8 +167,10 @@ Apabila pembangun ingin mempelajari sesuatu yang baru, kemungkinan besar mereka 
 
 #### Dokumentasi Popular untuk Pembangunan Web
 
-- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/docs/Web), dari Mozilla, penerbit [Firefox](https://www.mozilla.org/firefox/)
 - [Frontend Masters](https://frontendmasters.com/learn/)
+- [Web.dev](https://web.dev), dari Google, penerbit [Chrome](https://www.google.com/chrome/)
+- [Dokumen pembangun Microsoft sendiri](https://docs.microsoft.com/microsoft-edge/#microsoft-edge-for-developers), untuk [Microsoft Edge](https://www.microsoft.com/edge)
 
 ✅ Lakukan penyelidikan: Sekarang setelah anda mengetahui asas-asas persekitaran pembangun web, membandingkan dan membezakannya dengan persekitaran pereka web.
 
@@ -179,7 +181,7 @@ Apabila pembangun ingin mempelajari sesuatu yang baru, kemungkinan besar mereka 
 Bandingkan beberapa bahasa pengaturcaraan. Apa ciri unik JavaScript berbanding dengan Java? Bagaimanakah dengan COBOL vs. Go?
 
 ## Kuiz Pasca Kuliah
-[Kuiz Pasca Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/2)
+[Kuiz Pasca Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/2)
 
 ## Mengkaji sendiri & Belajar sendiri
 

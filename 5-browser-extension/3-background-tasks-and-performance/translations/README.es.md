@@ -1,6 +1,6 @@
 # Proyecto de extensión del navegador, parte 3: Más información sobre el rendimiento y las tareas en segundo plano
 
-## [Pre-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/27)
+## [Pre-lecture prueba](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/27)
 
 ### Introducción:
 
@@ -133,7 +133,7 @@ function drawIcon(value) {
 ```
 En este código, está agregando un oyente para cualquier mensaje que llegue al administrador de tareas de backend. Si se llama 'updateIcon', entonces se ejecuta el siguiente código para dibujar un icono del color adecuado usando la API de Canvas.
 
-✅ Aprenderá más sobre la API Canvas en las [lecciones del juego espacial](../../space-game/drawing-to-canvas/README.md).
+✅ Aprenderá más sobre la API Canvas en las [lecciones del juego espacial](../../../6-space-game/2-drawing-to-canvas/translations/README.es.md).
 
 Ahora, reconstruya su extensión (`npm run build`), actualice y ejecute su extensión, y observe el cambio de color. ¿Es un buen momento para hacer un mandado o lavar los platos? ¡Ahora lo sabes!
 
@@ -141,7 +141,7 @@ Felicitaciones, ha creado una extensión de navegador útil y ha aprendido más 
 
 🚀 Desafío: Investigue algunos sitios web de código abierto que han existido hace mucho tiempo y, según su historial de GitHub, vea si puede determinar cómo se optimizaron a lo largo de los años para el rendimiento, si es que lo hicieron. ¿Cuál es el punto de dolor más común?
 
-## [Post-lecture prueba](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/28)
+## [Post-lecture prueba](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/28)
 
 ## Revisión y autoestudio
 

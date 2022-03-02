@@ -4,11 +4,12 @@
 > Sketchnote karya [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Kuiz Pra Kuliah
-[Kuiz Pra Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/13)
+[Kuiz Pra Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/13)
 
 Pelajaran ini merangkumi asas-asas JavaScript, bahasa yang menyediakan interaktiviti di web. Dalam pelajaran ini, anda akan belajar tentang array dan loop, yang digunakan untuk memanipulasi data.
 
-[![Array dan Loop](https://img.youtube.com/vi/Q_CRM2lXXBg/0.jpg)](https://youtube.com/watch?v=Q_CRM2lXXBg "Array dan Loop")
+[![Array](https://img.youtube.com/vi/1U4qTyq02Xw/0.jpg)](https://youtube.com/watch?v=1U4qTyq02Xw "Array")
+[![Gelung](https://img.youtube.com/vi/Eeh7pxtTZ3k/0.jpg)](https://www.youtube.com/watch?v=Eeh7pxtTZ3k "Gelung")
 
 > Klik gambar di atas untuk video mengenai tatasusunan dan gelung.
 ## Array
@@ -19,11 +20,15 @@ Bekerja dengan data adalah tugas biasa untuk bahasa apa pun, dan ini adalah tuga
 
 Sintaks untuk array adalah sepasang tanda kurung persegi.
 
-`let myArray = [];`
+```javascript
+let myArray = [];
+```
 
 Ini adalah array kosong, tetapi tatasusunan dapat dinyatakan sudah diisi dengan data. Pelbagai nilai dalam array dipisahkan dengan koma.
 
-`let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];`
+```javascript
+let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
+```
 
 Nilai array diberikan nilai unik yang disebut **indeks**, nombor bulat yang diberikan berdasarkan jaraknya dari awal array. Dalam contoh di atas, nilai rentetan "Chocolate" mempunyai indeks 0, dan indeks "Rocky Road" adalah 4. Gunakan indeks dengan tanda kurung persegi untuk mengambil, mengubah, atau memasukkan nilai array.
 
@@ -69,10 +74,10 @@ Gelung `for` memerlukan 3 bahagian untuk berulang:
     - `iterasi-ekspresi` Berjalan pada akhir setiap lelaran, biasanya digunakan untuk mengubah nilai pembilang
 
 ```javascript
-    //Menggira hingga 10
-    for (let i = 0; i < 10; i++) {
-        console.log(i);
-    }
+// Menggira hingga 10
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
 ```
 
 ✅ Jalankan kod ini di konsol penyemak imbas. Apa yang berlaku apabila anda membuat perubahan kecil pada ungkapan pembilang, keadaan, atau lelaran? Bolehkah anda membuatnya berjalan ke belakang, membuat undur?
@@ -113,7 +118,7 @@ for (let i = 0; i < iceCreamFlavors.length; i++) {
 Terdapat cara lain untuk mengulangi tatasusunan selain untuk dan semasa gelung. Terdapat [forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of), dan [map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Tulis semula array loop anda menggunakan salah satu teknik ini.
 
 ## Kuiz Pasca Kuliah
-[Kuiz Pasca Kuliah](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/14)
+[Kuiz Pasca Kuliah](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/14)
 
 ## Mengkaji and Belajar Sendiri 
 

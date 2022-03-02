@@ -4,11 +4,13 @@
 > 由 [Tomomi Imura](https://twitter.com/girlie_mac) 繪製
 
 ## 課前測驗
-[課前測驗](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7?loc=zh_tw)
+[課前測驗](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/7?loc=zh_tw)
 
 這堂課會講述 Javascript 的基礎 ── 一款建立互動性網頁的程式語言。
 
 [![JavaScript 的資料型態](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "JavaScript 的資料型態")
+
+[![Data Types in JavaScript](https://img.youtube.com/vi/AWfA95eLdq8/0.jpg)](https://youtube.com/watch?v=AWfA95eLdq8 "Data Types in JavaScript")
 
 讓我們從程式語言的基礎 ── 「變數」與「資料型態」開始吧！
 
@@ -111,19 +113,19 @@ const MY_VARIABLE = 123;
 
 `let myVariable = 123;`
 
-變數能儲存所有類型的數字，包含小數點與負數。數字也可以被套用在四則運算上，這被放在[下一個段落](#operators)中。
+變數能儲存所有類型的數字，包含小數點與負數。數字也可以被套用在四則運算上，這被放在[下一個段落](#算術運算子-(Arithmetic-Operators))中。
 
 ### 算術運算子 (Arithmetic Operators)
 
 這些是做四則運算時會使用到的算術運算子，下列舉出了幾項例子：
 
-| 符號   | 描述                          | 舉例                  |
-| ------ | ------------------------------| --------------------- |
-| `+`    | **加法**： 對兩數做相加       | `1 + 2 // 答案為 3`   |
-| `-`    | **減法**： 對兩數做相減       | `1 - 2 // 答案為 -1`  |
-| `*`    | **乘法**： 對兩數做相乘       | `1 * 2 // 答案為 2`   |
-| `/`    | **除法**： 對兩數做相除       | `1 / 2 // 答案為 0.5` |
-| `%`    | **餘數**： 取得兩數相除的餘數 | `1 % 2 // 答案為 1`   |
+| 符號 | 描述                          | 舉例                  |
+| ---- | ----------------------------- | --------------------- |
+| `+`  | **加法**： 對兩數做相加       | `1 + 2 // 答案為 3`   |
+| `-`  | **減法**： 對兩數做相減       | `1 - 2 // 答案為 -1`  |
+| `*`  | **乘法**： 對兩數做相乘       | `1 * 2 // 答案為 2`   |
+| `/`  | **除法**： 對兩數做相除       | `1 / 2 // 答案為 0.5` |
+| `%`  | **餘數**： 取得兩數相除的餘數 | `1 % 2 // 答案為 1`   |
 
 ✅ 試試看！在瀏覽器命令欄中使用算數運算子。你得到了什麼結果?
 
@@ -172,12 +174,12 @@ let myString2 = "World";
 
 ### 布林 (Booleans)
 
-布林有兩種數值：`true` 或 `false`，使用在程式碼做條件決定的時候。在多數情況下，[運算子](#operators)可以套用在布林上，你會在初始化或更新數值時使用。
+布林有兩種數值：`true` 或 `false`，使用在程式碼做條件決定的時候。在多數情況下，[運算子](#算術運算子-(Arithmetic-Operators))可以套用在布林上，你會在初始化或更新數值時使用。
 
 - `let myTrueBool = true`
 - `let myFalseBool = false`
 
-✅ 布林值 `true` 亦有廣義的 'truthy' 數值。有趣的是，在 JavaScript 中，[除非被定義為 falsy，其餘的數值都會被當作是 truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)。
+✅ 布林值 `true` 亦有廣義的 'truthy' 數值。有趣的是，在 JavaScript 中，[除非被定義為 falsy，其餘的數值都會被當作是 truthy](https://developer.mozilla.org/docs/Glossary/Truthy)。
 
 ---
 
@@ -186,7 +188,7 @@ let myString2 = "World";
 JavaScript 在處理資料結構時有許多種方法，有些場合為人詬病。在這方面做一些調查，例如：大小寫敏感性的問題！在命令欄中輸入看看： `let age = 1; let Age = 2; age == Age`，輸出結果是 `false`，為什麼? 你能找到其他問題嗎?
 
 ## 課後測驗
-[課後測驗](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8?loc=zh_tw)
+[課後測驗](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/8?loc=zh_tw)
 
 ## 複習與自學
 

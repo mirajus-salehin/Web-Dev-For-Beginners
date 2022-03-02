@@ -4,11 +4,13 @@
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## 강의 전 퀴즈
-[Pre-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/7?loc=ko)
+[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/7?loc=ko)
 
 해당 강의에서는 웹에서 상호작용을 제공하는 언어인 JavaScript의 기초를 다룹니다. 
 
-[![Data types in JavaScript](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "Data types in JavaScript")
+[![Variables](https://img.youtube.com/vi/JNIXfGiDWM8/0.jpg)](https://youtube.com/watch?v=JNIXfGiDWM8 "Variables in JavaScript")
+
+[![Data Types in JavaScript](https://img.youtube.com/vi/AWfA95eLdq8/0.jpg)](https://youtube.com/watch?v=AWfA95eLdq8 "Data Types in JavaScript")
 
 
 변수와 변수를 채워주는 데이터 타입부터 시작합니다!
@@ -111,7 +113,7 @@ const MY_VARIABLE = 123;
 
 `let myVariable = 123;`
 
-변수는 소수 또는 음수를 포함하여 모든 유형의 숫자를 저장할 수 있습니다. 숫자는 [next section](#operators)에서 다룰 산술 연산자와 함께 사용할 수도 있습니다.
+변수는 소수 또는 음수를 포함하여 모든 유형의 숫자를 저장할 수 있습니다. 숫자는 [next section](#산술-연산자)에서 다룰 산술 연산자와 함께 사용할 수도 있습니다.
 
 ### 산술 연산자
 
@@ -171,7 +173,7 @@ let myString2 = "World";
 
 ### 논리 자료형
 
-논리 자료형은 `true` 또는 `false` 두 가지 값만 가능합니다. 논리 자료형은 특정 조건이 충족되며 실행할 코드 라인을 결정하는 순간 도움이 될 수 있습니다. 대부분의 경우, [operators](#operators)는 논리 연산자 값을 설정하는 데 도움이 되며, 변수 초기화되거나 해당 값이 연산자로 업데이트되는 것을 알고 쓰는 경우가 많습니다.
+논리 자료형은 `true` 또는 `false` 두 가지 값만 가능합니다. 논리 자료형은 특정 조건이 충족되며 실행할 코드 라인을 결정하는 순간 도움이 될 수 있습니다. 대부분의 경우, [operators](#산술-연산자)는 논리 연산자 값을 설정하는 데 도움이 되며, 변수 초기화되거나 해당 값이 연산자로 업데이트되는 것을 알고 쓰는 경우가 많습니다.
 
 - `let myTrueBool = true`
 - `let myFalseBool = false`
@@ -185,7 +187,7 @@ let myString2 = "World";
 JavaScript는 때때로 놀라운 방법으로 데이터 타입을 처리하는 것으로 유명합니다. 'gotchas'에 대해 약간 알아보세요. 예시: 대소문자 구분은 물릴 수 있습니다! 콘솔에서 다음을 시도하십시오: `let age = 1; let Age = 2; age == Age` (resolves `false` -- why?). 다른 문제를 찾을 수 있습니까?
 
 ## 강의 후 퀴즈
-[Post-lecture quiz](https://nice-beach-0fe9e9d0f.azurestaticapps.net/quiz/8?loc=ko)
+[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/8?loc=ko)
 
 ## 리뷰 & 자기주도 학습
 
